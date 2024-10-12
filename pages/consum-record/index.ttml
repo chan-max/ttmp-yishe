@@ -1,0 +1,3 @@
+<!-- 消费记录页 /pages/consum-record/consum-record.ttml -->
+<consumption-record recordList="{{recordList}}"></consumption-record>
+<view class="loading-completed" tt:if="{{recordList.length>0}}">已全部加载</view>

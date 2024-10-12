@@ -1,0 +1,63 @@
+{
+    "disablePrivate": true,
+    "setting": {
+        "urlCheck": false
+    },
+    "condition": {
+        "miniprogram": {
+            "current": 1696818199857,
+            "list": [
+                {
+                    "id": 1695110533401,
+                    "name": "pages/ablum/index",
+                    "pathName": "pages/ablum/index",
+                    "query": "",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1695202315784,
+                    "name": "pages/mine/index",
+                    "pathName": "pages/mine/index",
+                    "query": "",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1696818199857,
+                    "name": "消费记录页",
+                    "pathName": "pages/consum-record/consum-record",
+                    "query": "",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1697248683063,
+                    "name": "package-video-player/pages/video-player/index",
+                    "pathName": "package-video-player/pages/video-player/index",
+                    "query": "ablum_id=7206251246821966394&episodes_id=9",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1697250367383,
+                    "name": "package-video/pages/video/index",
+                    "pathName": "package-video/pages/video/index",
+                    "query": "ablum_id=1&episodes_id=1",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                }
+            ]
+        }
+    }
+}

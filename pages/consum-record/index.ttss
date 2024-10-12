@@ -1,0 +1,10 @@
+page{
+    background: rgba(246, 246, 246, 1);
+}
+
+.loading-completed{
+    color: rgba(22, 24, 35, 0.3);
+    font-size: 24rpx;
+    text-align: center;
+    margin-top: 32rpx;
+}

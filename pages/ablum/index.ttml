@@ -1,0 +1,14 @@
+<view>   
+    <!-- 有过“追剧”，显示列表 -->
+    <view tt:if="{{chasingList.length > 0}}" class="binge-watch">
+        <binge-watch-card chasingList="{{chasingList}}"></binge-watch-card>
+        <view class="loading-completed">已全部加载</view>
+    </view>
+    <!-- 没有任何“追剧”，显示“空状态” -->
+    <view tt:else class="empty">
+        <view class="empty-icon">
+            <image  mode="widthFix" src="../../assets/nothing.png"></image>
+        </view>
+        <view>这里还没有内容，快去广场看看吧～</view>
+    </view>
+</view>

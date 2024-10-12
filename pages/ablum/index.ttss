@@ -1,0 +1,32 @@
+page {
+    background: rgba(246, 246, 246, 1);
+}
+
+.loading-completed{
+    color: rgba(22, 24, 35, 0.3);
+    font-size: 24rpx;
+    text-align: center;
+    margin-top: 32rpx;
+}
+
+.empty{
+    height: 100vh;
+    width: 622rpx;
+    position: fixed;
+    top: 404rpx;
+    font-size: 28rpx;
+    color: rgba(22, 24, 35, 0.6);
+    text-align: center;
+    margin: 0 70rpx;
+}
+
+.empty-icon{
+    width: 472rpx;
+    height: 316rpx;
+    margin: 0 74rpx 42rpx 76rpx;
+}
+
+.empty-icon image{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "banner":"../../components/banner/index",
+        "ablum-card":"../../components/ablum-card/ablum-card"
+    }
+}

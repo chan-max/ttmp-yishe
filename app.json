@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/ablum/index",
+    "pages/consum-record/index",
+    "pages/mine/index"
+
+  ],
+  "subpackages": [
+    {
+      "root": "package-video",
+      "name": "packageVideo",
+      "pages": ["pages/video/index"]
+    },
+    {
+      "root": "package-video-player",
+      "name": "packageVideoPlayer",
+      "pages": ["pages/video-player/index"]
+    }
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Mini Program",
+    "navigationBarTextStyle":"black",
+    "disableSwipeBack":true
+  },
+  "tabBar": {
+    "color": "#161823",
+    "selectedColor": "#161823",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "广场",
+        "iconPath": "./assets/index.png",
+        "selectedIconPath": "./assets/index-select.png"
+      },
+      {
+        "pagePath": "pages/ablum/index",
+        "text": "追剧",
+        "iconPath": "./assets/ablum.png",
+        "selectedIconPath": "./assets/ablum-select.png"
+      },
+      {
+        "pagePath":"pages/mine/index",
+        "text": "我的",
+        "iconPath": "./assets/mine.png",
+        "selectedIconPath": "./assets/mine-select.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+<view>
+    <!-- 用户信息 -->
+    <view class="user-box">
+        <view class="user-empty" tt:if="{{!userInfo}}">
+            <view class="avatarUrl">
+                <image mode="widthFix" src="../../assets/userMask.png"></image>
+            </view>
+            <view class="nickName" bindtap="getUserProfile">登录</view>
+        </view>
+        <view class="user-info" tt:else>
+            <view class="avatarUrl">
+                <image mode="widthFix" src="{{userInfo.avatarUrl}}"></image>
+            </view>
+            <view class="nickName" bindtap="getUserProfile">{{userInfo.nickName}}</view>
+        </view>
+    </view>
+
+    <!-- 消费记录 -->
+    <view class="consume" bindtap="goConsume">
+        <view class="consume-title">消费记录</view>
+        <view class="arrow">
+            <image src="../../assets/nextIcon.png"></image>
+        </view>
+    </view>
+    <!-- 在线客服 使用【抖音 IM 客服】能力-->
+    <view class="oncall">
+        <button open-type="im" data-im-id="{{ imId }}" bindim="imCallback" binderror="onimError"
+            style="height: 100%; width: 100%; position: absolute; top: 0; left: 0; opacity: 0;">
+
+        </button>
+        <view class="oncall-title">
+            在线客服
+        </view>
+        <view class="arrow">
+            <image src="../../assets/nextIcon.png"></image>
+        </view>
+    </view>
+</view>

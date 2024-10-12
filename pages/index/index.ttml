@@ -1,0 +1,21 @@
+<banner videoList="{{videoList}}" />
+<view class="box-down">
+    <!-- 通用视频组件示例部分 -->
+    <view class="loveSth">
+        <view class="item-title">通用视频组件示例</view>
+        <view class="ablum-video">
+            <block tt:for="{{videoList}}">
+                <ablum-card ablumItem="{{item}}" bindtap="goVideo" data-id="{{item.ablum_id}}" data-episodesId="{{item.episodes[0].episodes_id}}"/>
+            </block>
+        </view>
+    </view>
+    <!-- 短剧解决方案示例部分 -->
+    <view>
+        <view class="item-title">短剧解决方案示例</view>
+        <view class="ablum-video-player" >
+            <block tt:for="{{videoPlayerList}}">
+                <ablum-card ablumItem="{{item}}" bindtap="goVideoPlayer" data-id="{{item.ablum_id}}" data-episodesId="{{item.episodes[0].episodes_id}}"/>
+            </block>
+        </view>
+    </view>
+</view>

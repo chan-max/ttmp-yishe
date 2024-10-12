@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "binge-watch-card":"../../components/binge-watch-card/binge-watch-card"
+    }
+}
